@@ -1330,7 +1330,7 @@ label, input, select, textarea {
 
 .fact-tip-content {
   background: #fffbe6;
-  color: #111;
+  color: #c71f1f;
   border-radius: 8px;
   padding: 0.7rem 1rem;
   margin-top: 6px;
@@ -1338,11 +1338,9 @@ label, input, select, textarea {
   font-size: 1.08em;
   letter-spacing: 0.1px;
 }
-.theme-dark .fact-tip-content {
-  background: #fffbe6 !important;
-  color: #111 !important;
-  border: 2px solid #43cea2;
-  box-shadow: 0 2px 8px #43cea233;
-  position: relative;
-  z-index: 10;
+.theme-dark .fact-tip-content,
+.theme-dark .fact-tip-content span,
+.theme-dark .fact-tip-content p,
+.theme-dark .fact-tip-content div {
+  color: #ff0000 !important;
 }
